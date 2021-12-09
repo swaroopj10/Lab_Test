@@ -1,3 +1,7 @@
+"""
+8 puzzle using A star heuristic function as Manhattan distnce
+"""
+
 class Node:
     def __init__(self, state, level):
         self.grid = state
